@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+    z-index: 1;
+    background: #E5E5E5;
+}
+header.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header__sector{
+    margin-left: -65rem;
+}
+.checkbox{
+    width: 140rem;
+    height: 5rem;
+    background-color: black;
+    position: relative;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    margin-right: 20rem;
+}
+.checkbox::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 140rem;
+    height: 5rem;
+    background-color: black;
+    bottom: 15rem;
+    left: 0;
+    transition: 0.3s;
+
+}
+.checkbox::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 140rem;
+    height: 5rem;
+    background-color: black;
+    top: 15rem;
+    left: 0;
+    transition: 0.3s;
+
+
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 134rem;
+    
+}
+
+.header__logo{
+    width: 87rem;
+    height: 86rem;
+    margin-left: -60rem;
+}
+.header__a{
+    font-weight: 400;
+    font-size: 16rem;
+    color: #323232;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+.header__a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    background: #323232;
+    opacity: 0;
+    transition: 0.3s;
+}
+.header__a:hover{
+    transform: scale(1.1);
+}
+.header__a:hover::after{
+    opacity: 1;
+}
+.header__main{
+    display: none;
+}

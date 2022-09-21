@@ -1,0 +1,138 @@
+/* Intro */
+.intro{
+    background: url(../img/intro_3.jpg) center no-repeat;
+    background-size: cover;
+}
+.intro__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro__suptitle{
+    font-size: 16rem;
+    color: #F6F6F6;
+    font-weight: 400;
+    margin-top: 220rem;
+}
+.intro__title{
+    max-width: 550rem;
+    color: #F6F6F6;
+    text-align: center;
+    line-height: 200%;
+}
+
+.intro__btn{
+    color: #4C6D77;
+    border: 1rem solid #F6F6F6;
+    background: #F6F6F6;
+    margin-top: 100rem;
+    margin-bottom: 80rem;
+}
+
+
+/* Whywe */
+
+.why__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80rem 80rem;
+    margin-top: 100rem;
+}
+.why__items{
+    display: flex;
+    flex-direction: column;
+}
+.why__suptext{
+    font-weight: 700;
+    font-size: 16rem;
+    color: #323232;
+    position: relative;
+}
+.why__suptext::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200rem;
+    height: 1rem;
+    background-color: #715B4B;
+    top: 30rem;
+    left: 0;
+}
+.why__text{
+    font-size: 16rem;
+    color: #323232;
+    max-width: 290rem;
+    margin-top: 30rem;
+}
+
+/* Portfolio */
+
+.port__content{
+    max-width: 820rem;
+    margin: 100rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.port__img{
+    width: 100%;
+}
+.port__box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.port__box__items{
+    margin-top: 20rem;
+}
+.port__photo{
+    width: 105rem;
+    cursor: pointer;
+}
+
+/* Stages */
+
+.stages__content{
+    margin-top: 100rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 140rem);
+    border: 1rem solid #000;
+}
+.stages__items{
+    border: 1rem solid #000;
+}
+.stages__title{
+    text-align: end;
+    margin-right: 40rem;
+}
+.stages__text{
+    font-weight: 300;
+    font-size: 16rem;
+    line-height: 102.99%;
+    color: #323232;
+    margin: 15rem 0 0 40rem;
+    max-width: 235rem;
+}
+
+/* Clients */
+
+.clients__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 200rem;
+    margin-top: 100rem;
+}
+.clients__photo{
+    width: 230rem;   
+}
+
+/* Button */
+.button{
+    margin-bottom: 180rem;
+}
+.button__btn{
+    margin: 100rem auto 0 auto;
+    
+}

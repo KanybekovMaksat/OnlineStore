@@ -1,0 +1,152 @@
+@media all and (max-width:770px){
+    
+
+/* Intro */
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .intro__items{
+        width: 100%;
+    }
+    .intro__items:first-child{
+        min-height: 1600rem;
+    }
+    .intro__content{
+        max-width: none;
+    }
+    .intro__suptitle{
+        font-size: 48rem;
+        max-width: 600rem;
+        margin: 200rem 0 160rem 0; 
+    }
+    .intro__title{
+        max-width: none;
+        font-size: 144rem;
+        margin-bottom: 100rem;
+    }
+    .intro__subtitle{
+        font-size: 74rem;
+    }
+    .intro__btn{
+        max-width: 1000rem;
+        padding: 36rem 0 36rem 250rem;
+    }
+    .intro__logotips{
+        max-width: 600rem;
+        position: static;
+        margin-left: 40rem;
+        margin-top: 200rem;
+        margin-bottom: 80rem;
+    }
+    .intro__logotips__box{
+        width: 120rem;
+        height: 120rem;
+    }
+    .intro__logotips__items{
+        width: 90rem;
+        padding: 25rem 0 0 25rem;
+    }
+
+
+    /* Itis */
+    .itis__title{
+        font-size: 170rem;
+    }
+    .itis__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .itis__items{
+        width: 80%;
+    }
+    .itis__text{
+        font-size: 54rem;
+        max-width: 710rem;
+    }
+
+    /* Icons */
+    .icons__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 300rem;
+    }
+    .icons__items{
+        width: 40%;
+    }
+    .icons__photo{
+        width: 300rem;
+        margin-top: 50rem;
+    }
+    .icons__text{
+        font-size: 54rem;
+    }
+
+    /* Family */
+    .family{
+        margin-bottom: 200rem;
+        margin-left: 0;
+    }
+    .fam__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .fam__items:first-child{
+        width: 100%;
+    }
+    .fam__items:last-child{
+        width: 100%;
+    }
+    .fam__items__title{
+        font-size: 72rem;
+        max-width: 745rem;
+    }
+    .fam__text{
+        font-size: 75rem;
+        max-width: none;
+    }
+
+    /* Services */
+    .services{
+        margin-left: 0;
+    }
+    .ser__content{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .ser__items > .btn{
+        margin-bottom: 50rem;
+    }
+    .ser__photo, .ser__items{
+        width: 100%;
+    }
+    .ser__items__title{
+        font-size: 100rem;
+    }
+    .ser__items__text{
+        max-width: none;
+        font-size: 44rem;
+    }
+
+    /* Diplom */
+    .dip__title{
+        max-width: none;
+        text-align: start;
+        font-size: 120rem;
+        margin-left: 40rem;
+    }
+    .dip__text{
+        font-size: 48rem;
+        max-width: none;
+    }
+    .dip__photo{
+        bottom: 20rem;
+        left: 910rem;
+        width: 250rem;
+    }
+
+}

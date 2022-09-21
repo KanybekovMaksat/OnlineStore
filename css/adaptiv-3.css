@@ -1,0 +1,94 @@
+@media all and (max-width:770px) {
+/* Intro */
+.intro__content{
+    align-items: flex-start;
+    margin-left: 100rem;
+}
+.intro__suptitle{
+    font-size: 48rem;
+    max-width: 750rem;
+}
+.intro__title{
+    max-width: 1320rem;
+    text-align:start ;
+}
+.intro__btn{
+    padding: 50rem 450rem;
+}
+
+/* Whywe */
+.whywe > .container > .title{
+    max-width: 1100rem;
+    margin-left: 300rem;
+}
+.why__content{
+    grid-template-columns: 1fr;
+    gap: 150rem 0;
+    margin-left: 300rem;
+}
+.why__suptext{
+    font-size: 64rem;
+}
+.why__suptext::after{
+    width: 960rem;
+    top: 100rem;
+}
+.why__text{
+    max-width: 960rem;
+    font-size: 48rem;
+}
+
+/* Portfolio */
+.portfolio > .container > .title{
+    text-align: center;
+}
+
+/* Stages */
+.stages__content{
+    grid-template-columns: 1fr;
+    margin-left: 100rem;
+    margin-right: 100rem;
+    grid-template-rows: repeat(6, 400rem);
+}
+.stages__text{
+    max-width: 700rem;
+    font-size: 48rem;
+}
+
+/* Clients */
+.clients__content{
+    justify-content: center;
+    margin-left: 0;
+
+}
+.clients__items{
+    position: relative;
+}
+.clients__items::after{
+    content: url(../img/portfolio/2.svg);
+    display: inline-block;
+    position: absolute;
+    border: 1rem solid #F6F6F6;
+    border-radius: 50%;
+    background: #F6F6F6;
+    text-align: center;
+    padding: 10rem 18rem; 
+    z-index: 1;
+    top: 180rem;
+    left: 480rem;
+}
+.clients__items > a > img {
+    width: 100%;
+}
+.clients__items:nth-child(2), .clients__items:nth-child(3), .clients__items:nth-child(4), .clients__items:nth-child(5){
+    display: none;
+}
+
+ 
+
+
+
+
+
+
+}

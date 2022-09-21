@@ -1,0 +1,194 @@
+/* Intro */
+.intro{
+    background: url(../img/intro-2.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 600rem;
+    width: 100%;
+}
+.intro__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro__title{
+    color: #F6F6F6;
+    text-align: center;
+    padding-top: 270rem;
+}
+.intro__btn{
+    color: #4C6D77;
+    border: 1rem solid #F6F6F6;
+    background: #F6F6F6;
+    margin-top: 100rem;
+}
+
+
+/* Works */
+
+.works__content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40rem 90rem;
+    margin-top: 100rem;
+}
+.works__items{
+    font-size: 20rem;
+}
+.works__img{
+    width: 260rem;
+    height: 300rem;
+}
+.works__text{
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 102.99%;
+    color: #323232;
+    text-align: center;
+}
+.works__btn{
+    margin: 130rem auto 0 auto;
+}
+
+/* Chain */
+
+.chain__content{
+    margin-top: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 320rem;
+}
+.chain__items{
+    display: flex;
+    align-items: center;
+    margin-top: 60rem;
+}
+.chain__number{
+    font-size: 24rem;
+    font-weight: 700;
+    color: #F6F6F6;
+    border: 1rem solid #A1B29F;
+    background: #A1B29F;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12rem 23rem;
+    position: relative;
+}
+.chain__number::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1rem;
+    width: 60rem;
+    background: #C4C4C4;
+    top: 90rem;
+    left: 0;
+    transform: rotate(90deg);
+}
+.chain__last__number::after{
+    content: "";
+    display: none;
+}
+.chain__text{
+    font-size: 18rem;
+    color: #000;
+    margin-left: 45rem;
+}
+
+
+/* Slide */
+.slide{
+    background: url(../img/slide.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500rem;
+}
+.slide__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500rem;
+}
+.slide__title{
+    font-size: 48rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 950rem;
+    color: #F6F6F6;
+}
+
+/* Restoration */
+
+.resto__content{
+    margin-top: 100rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 100rem 50rem;
+}
+.resto__items{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.resto__photo{
+    width: 100%;
+    
+}
+.resto__text{
+    font-size: 18rem;
+    font-weight: 700;
+    color: #323232;
+    margin-top: 50rem;
+}
+
+/* Carpenter */
+
+.carp__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100rem;
+}
+.carp__items{
+    flex: 0 0 45%;
+    text-align: center;
+}
+.carp__photo{
+    width: 100%;
+    height: 100%;
+}
+.carp__text{
+    font-size: 18rem;
+    font-weight: 700;
+    color: #323232;
+    margin-top: 20rem;
+}
+
+/* End */
+
+.end{
+    margin-bottom: 300rem;
+}
+.end__content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.end__items:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.end__items:last-child{
+    width: 100%;
+    height: 100%;
+    background: #C4C4C4;
+
+}
+.end__text{
+    font-size: 18rem;
+    color: #000;
+    max-width: 600rem;
+    margin: 100rem 0 50rem 0;
+}

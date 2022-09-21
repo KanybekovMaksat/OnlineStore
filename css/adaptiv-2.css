@@ -1,0 +1,120 @@
+@media all and (max-width: 770px) {
+    
+
+/* Intro */
+.intro__btn{
+    margin-bottom: 50rem;
+}
+/* Works */
+
+.works__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.works__items{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works__img{
+    width: 500rem;
+    height: 600rem;
+}
+.works__text{
+    font-size: 48rem;
+    margin-top: 20rem;
+}
+.button__box{
+    margin-left: -80rem;
+}
+
+/* Chain */
+.chain__number{
+    font-size: 72rem;
+    padding: 36rem 69rem;
+    width: 180rem;
+    height: 180rem;
+}
+.chain__number::after{
+    width: 100rem;
+    top: 228rem;
+    left: 40rem;
+}
+.chain__5__number::after{
+    width: 155rem;
+    top:  255rem;
+    left: 10rem;
+}
+.chain__6__number::after{
+    width: 135rem;
+    top: 245rem;
+    left: 22rem;
+}
+.chain__text{
+    font-size: 72rem;
+    margin-left: 90rem;
+    font-weight: 300;
+}
+
+/* Slide */
+.slide{
+    min-height: 1000rem;
+}
+.slide__content{
+    min-height: 1000rem;
+}
+.slide__title{
+    font-size: 100rem;
+    max-width: 1200rem;
+}
+
+/* restoration */
+.restoration > .container > .title{
+    max-width: 1300rem;
+}
+
+
+.resto__content{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200rem 50rem;
+}
+.resto__text{
+    font-size: 72rem;
+
+}
+
+/* Carprenter */
+
+
+.carp__content{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carp__items{
+    flex: 0 0 80%;
+    margin-top: 150rem;
+}
+.carp__text{
+    font-size: 54rem;
+}
+/* End */
+.end__content{
+    grid-template-columns: 100%;
+}
+.end__items:first-child{
+    align-items: center;
+}
+.end__items:last-child{
+    display: none;
+}
+.end__text{
+    font-size: 54rem;
+    max-width: 1350rem;
+}
+
+
+
+}

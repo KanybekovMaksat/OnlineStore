@@ -1,0 +1,102 @@
+/* Intro */
+.intro{
+    margin-top: 120rem;
+}
+.intro__title{
+    max-width: 740rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 200%;
+}
+.intro__photo{
+    width: 100%;
+    margin-top: 40rem;
+}
+.intro__box{
+    margin-top: 120rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.intro__text{
+    font-size: 16rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+/* Info */
+
+.info__content{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 460rem;
+    gap: 0 5%;
+}
+.info__photo{
+    width: 100%;
+}
+.info__box{
+    display: flex;
+    flex-direction: column;
+}
+.info__title{
+    font-size: 24rem;
+    color: #000;
+}
+.info__subtitle{
+    font-size: 16rem;
+    margin-top: 20rem;
+}
+.info__text{
+    margin-top: 70rem;
+    font-size: 16rem;
+    max-width: 660rem;
+}
+/* Filosof */
+
+.fil__box{
+    display: flex;
+    justify-content: right;
+}
+.fil__text{
+    font-size: 24rem;
+    text-align: right;
+    color: #323232;
+    margin-top: 70rem;
+    max-width: 680rem;
+    font-weight: 300;
+}
+
+/* SMI */
+
+.smi__subtitle{
+    font-size: 16rem;
+    margin-top: 20rem;
+    color: #323232;
+}
+.smi__content{
+    margin: 100rem auto 0 auto;
+    max-width: 1120rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.smi__photo{
+    transition: .8s;
+    width: 230rem;
+    z-index: 0;
+}
+.smi__photo:hover{
+    transform: scale(1.5);
+    z-index: 0;
+}
+
+
+/* End */
+.end{
+    margin-bottom: 250rem;
+}
+.end__btn{
+    margin-top: 100rem;
+}

@@ -1,0 +1,68 @@
+@media all and (max-width: 770px){
+    .intro__title{
+        max-width: none;
+        text-align: start;
+    }
+
+    .intro__box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .intro__items{
+        width: 100%;
+        text-align: start;
+        margin-top: 250rem;
+        margin-left: 100rem;
+    }
+    .intro__text{
+        font-size: 64rem;
+    }
+
+    /* Info */
+    .info__content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .info__box{
+        margin-left: 250rem;
+    }
+    .info__title{
+        font-size: 100rem;
+        margin-top: 200rem;
+    }
+    .info__subtitle{
+        font-size: 48rem;
+    }
+    .info__text{
+        font-size: 48rem;
+        max-width: 1000rem;
+        margin-top: 150rem;
+    }
+    /* Filosofia */
+    .fil__text{
+        font-size: 72rem;
+        max-width: 1300rem;
+    }
+    /* SMI */
+    .smi__content{
+        flex-wrap: wrap;
+
+    }
+    .smi__photo{
+        width: 45%;
+        display: inline-block;
+        margin-top: 180rem;
+    }
+    .smi__subtitle{
+        font-size: 64rem;
+        max-width: 1000rem;
+    }
+    
+    .smi__photo:hover{
+        transform: scale(1.4);
+    }
+    
+    
+
+    
+}

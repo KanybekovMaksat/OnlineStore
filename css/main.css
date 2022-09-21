@@ -1,0 +1,241 @@
+/* Intro */
+.intro{
+    width: 100%;
+    margin-top: -1rem;
+    display: flex;
+}
+.intro__items{
+    width: 50%;
+}
+.intro__items:first-child{
+    background: url(../img/intro.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 700rem;
+}
+.intro__content{
+    max-width: 600rem;
+    margin-left: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+.intro__suptitle{
+    font-size: 16rem;
+    font-weight: 300;
+    color: #323232;
+    margin: 200rem 0 20rem 0;
+}
+.intro__title{
+    font-size: 48rem;
+    line-height: 120%;
+    font-weight: 400;
+    color: #57463A;
+    max-width: 500rem;
+}
+.intro__subtitle{
+    font-size: 18rem;
+    font-weight: 300;
+    color: #323232;
+    margin: 40rem 0 70rem 0;
+}
+.intro__btn{
+    max-width: 245rem;
+}
+
+.intro__logotips{
+    position: relative;
+    top: 35rem;
+    left: 500rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200rem;
+}
+.intro__logotips__box{
+    border: 1rem solid #715B4B;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
+}
+.intro__logotips__items{
+    padding: 7rem 0 0 7rem;
+    width: 30rem;
+}
+
+
+/* Itis */
+
+
+.itis__title{
+    font-size: 48rem;
+    line-height: 120%;
+    font-weight: 400;
+    color: #57463A;
+}
+.itis__content{
+    display: flex;
+    justify-content: space-between;
+}
+.itis__items{
+    width: 360rem;
+    margin-top: 100rem;
+}
+.itis__text{
+    font-size: 18rem;
+    font-weight: 300;
+    color: #323232;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 270rem;
+}
+.itis__hr{
+    height: 3rem;
+    background: #715B4B;
+    margin-top: 15rem;
+}
+
+/* Icons */
+
+.icons__content{
+    margin-top: 100rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 290rem);
+}
+.icons__items{
+    border: 1rem solid #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.icons__photo{
+    width: 100rem;
+}
+.icons__text{
+    font-size: 18rem;
+    font-weight: 300;
+    color: #323232;
+    margin-top: 20rem;
+}
+
+
+/* Family */
+
+.fam__content{
+    display: flex;
+    margin-top: 100rem;
+}
+
+.fam__items{
+   display: block;
+}
+.fam__items:first-child{
+    width: 50%;
+    height: 100%;
+}
+.fam__items:last-child{
+    padding-left: 30rem;
+    background: #EBEEEB;
+    width: 50%;
+}
+.fam__items__title{
+    font-weight: 400;
+    font-size: 24rem;
+    color: #000000;
+    max-width: 500rem;
+    padding-top: 68rem;
+}
+.fam__text{
+    font-weight: 300;
+    font-size: 18rem;
+    max-width: 500rem;
+    margin-top: 40rem;
+    margin-bottom: 50rem;
+}
+.fam__btn{
+    margin-top: 50rem;
+}
+
+
+/* Video */
+
+.video{
+    width: 100%;
+    height: 700rem;
+    margin-top: 100rem;
+}
+
+/* Services */
+.services{
+    margin-top: 200rem;
+}
+
+.ser__content{
+    margin-top: 100rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ser__photo, .ser__items{
+    width: 100%;
+}
+.ser__photo-1{
+    margin-top: -2rem;
+}
+.ser__items{
+    padding-left: 40rem;
+    background: #E3DACE;
+}
+.ser__items:last-child{
+    background: #D4CDC3;
+    margin-top: -2rem;
+}
+.ser__items__title{
+    font-weight: 400;
+    font-size: 24rem;
+    color: #000000;
+    margin-top: 110rem;
+}
+.ser__items__text{
+    max-width: 540rem;
+    font-weight: 300;
+    font-size: 18rem;
+    margin-top: 40rem;
+    margin-bottom: 55rem;
+}
+
+
+/* Diplom */
+.diplom{
+    margin-top: 200rem;
+    margin-bottom: 210rem;
+}
+.dip__sector{
+    border: 7rem solid #A1B29F;
+    width: 100%;
+}
+.dip__content{
+    border: 1rem solid #715B4B;
+    margin: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.dip__title{
+    text-align: center;
+    max-width: 650rem;
+    margin: 90rem 0 40rem 0;
+}
+
+.dip__text{
+    max-width: 920rem;
+    font-weight: 300;
+    font-size: 24rem;
+    color: #000000;
+    margin-bottom: 180rem;
+}
+.dip__photo{
+    width: 150rem;
+    position: absolute;
+    left: 840rem;
+    bottom: 50rem;
+}
